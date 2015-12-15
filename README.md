@@ -2,10 +2,14 @@
 This project realizes playing videos storing in HDFS(Hadoop) in the web page online.</br>
 这个工程实现了在网页中在线播放存储在HDFS(Hadoop)中的视频文件的功能。
 # Introduce 介绍
+In some existing methods:</br>
+WebHDFS/streamFile require that HDFS Clusters be exposed in public network and WebHDFS can't fast forward.</br>
+HTTPFS Gateway can't fast forward too.</br>
+This Project use web server as a gateway.HDFS Clusters don't need to be exposed in public network and it supports fast forward.</br>
 在已有的一些方式中：</br>
 使用WebHDFS/streamFile方式必须将HDFS集群暴露在公网，其中WebHDFS无法快进。</br>
 使用HTTPFS GateWay方式无法快进。</br>
-本工程使用web服务器作为网管，无需将HDFS集群暴露在公网中，同时实现视频快进。
+本工程使用web服务器作为网关，无需将HDFS集群暴露在公网中，同时实现视频快进。
 #Usage 用法
 1、将com.constants.Constans.java中的ip地址和端口号改为您Hadoop集群中主节点的IP地址以及端口号（默认为9000）。</br>
 2、将MyStream.html中video标签中的url：http://localhost:8080/HDFSVideoDemo/stream?fpath=/test.mp4 中的fpath参数改为您Hadoop集群中视频文件的路径。</br>
