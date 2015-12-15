@@ -6,11 +6,17 @@ In some existing methods:</br>
 WebHDFS/streamFile require that HDFS Clusters be exposed in public network and WebHDFS can't fast forward.</br>
 HTTPFS Gateway can't fast forward too.</br>
 This Project use web server as a gateway.HDFS Clusters don't need to be exposed in public network and it supports fast forward.</br>
+</br>
 在已有的一些方式中：</br>
 使用WebHDFS/streamFile方式必须将HDFS集群暴露在公网，其中WebHDFS无法快进。</br>
 使用HTTPFS GateWay方式无法快进。</br>
 本工程使用web服务器作为网关，无需将HDFS集群暴露在公网中，同时实现视频快进。
 #Usage 用法
+1、Modify the ip address and port in com.constants.Constants.java into the namenode's IP and port.</br>
+2、Modify the fpath parameter in http://localhost:8080/HDFSVideoDemo/stream?fpath=/test.mp4 in MyStream.html into the video file you want to play.</br>
+3、Deploy the web project in a web server and start it.</br>
+4、Visit http://localhost:8080/HDFSVideoDemo/MyStream.html in a browser.</br>
+</br>
 1、将com.constants.Constans.java中的ip地址和端口号改为您Hadoop集群中主节点的IP地址以及端口号（默认为9000）。</br>
 2、将MyStream.html中video标签中的url：http://localhost:8080/HDFSVideoDemo/stream?fpath=/test.mp4 中的fpath参数改为您Hadoop集群中视频文件的路径。</br>
 3、将工程部署在web服务器并启动。</br>
