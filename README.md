@@ -22,5 +22,8 @@ This Project use web server as a gateway.HDFS Clusters don't need to be exposed 
 3、将工程部署在web服务器并启动。</br>
 4、访问http://localhost:8080/HDFSVideoDemo/MyStream.html即可。</br>
 #Notice 注意事项
-1、本工程中前端播放器采用HTML5中新加入的video标签，目前只支持Ogg、MPEG4（MP4）、WebM三种格式，若想支持更多格式，请使用换用其他前端播放器，同时请使用支持HTML5的浏览器进行视频播放。</br>
+1、This project use the new label <video> which now only supports Ogg,MPEG4(MP4),WebM.If you want more video types,try to use another web video player.As the same time,please use the browsers which supports HTML5.</br>
+2、This poject supports videos' downloading.Just access the url in video label in browser.</br>
+</br>
+1、本工程中前端播放器采用HTML5中新加入的<video>标签，目前只支持Ogg、MPEG4（MP4）、WebM三种格式，若想支持更多格式，请使用换用其他前端播放器，同时请使用支持HTML5的浏览器进行视频播放。</br>
 2、本工程支持视频的下载，直接在浏览器中访问MyStream.html中video标签中的URL即可。
