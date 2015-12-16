@@ -13,7 +13,7 @@ This Project use web server as a gateway.HDFS Clusters don't need to be exposed 
 本工程使用web服务器作为网关，无需将HDFS集群暴露在公网中，同时实现视频快进。
 #Usage 用法
 1、Modify the ip address and port in com.constants.Constants.java into the namenode's IP and port.</br>
-2、Modify the fpath parameter in http://localhost:8080/HDFSVideoDemo/stream?fpath=/test.mp4 in MyStream.html into the video file you want to play.</br>
+2、Modify the fpath parameter in http://localhost:8080/HDFSVideoDemo/stream?fpath=/test.mp4 in MyStream.html into the HDFS path of the video file you want to play.</br>
 3、Deploy the web project in a web server and start it.</br>
 4、Visit http://localhost:8080/HDFSVideoDemo/MyStream.html in a browser.</br>
 </br>
