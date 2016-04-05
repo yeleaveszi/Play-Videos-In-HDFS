@@ -24,6 +24,7 @@ This Project use web server as a gateway.HDFS Clusters don't need to be exposed 
 #Notice 注意事项
 1、This project use the new label <video> which now only supports Ogg,MPEG4(MP4),WebM.If you want more video types,try to use another web video player.As the same time,please use the browsers which supports HTML5.</br>
 2、This poject supports videos' downloading.Just access the url in video label in browser.</br>
+3、This project is a maven project.If you don't use maven,please download the required jars from http://pan.baidu.com/s/1gf33IpH and build the web project yourself.
 </br>
 1、本工程中前端播放器采用HTML5中新加入的<video>标签，目前只支持Ogg、MPEG4（MP4）、WebM三种格式，若想支持更多格式，请使用换用其他前端播放器，同时请使用支持HTML5的浏览器进行视频播放。</br>
 2、本工程支持视频的下载，直接在浏览器中访问MyStream.html中video标签中的URL即可。
