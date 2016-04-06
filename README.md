@@ -28,6 +28,6 @@ This Project use web server as a gateway.HDFS Clusters don't need to be exposed 
 </br>
 1、本工程中前端播放器采用HTML5中新加入的<video>标签，目前只支持Ogg、MPEG4（MP4）、WebM三种格式，若想支持更多格式，请使用换用其他前端播放器，同时请使用支持HTML5的浏览器进行视频播放。</br>
 2、本工程支持视频的下载，直接在浏览器中访问MyStream.html中video标签中的URL即可。</br>
-3、本工程采用maven构建，如果您不使用maven，可以到http://pan.baidu.com/s/1gf33IpH下载相关jar包，自行构建web项目。
+3、本工程采用maven构建，如果您不使用maven，可以到 http://pan.baidu.com/s/1gf33IpH 下载相关jar包，自行构建web项目。
 #Screenshot 截图
 <img src="https://github.com/yeleaveszi/Play-Videos-In-HDFS/blob/master/pic.png"  alt="截图" />
